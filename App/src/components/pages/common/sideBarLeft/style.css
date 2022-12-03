@@ -1,0 +1,82 @@
+/*All */
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: flex-start;
+  background: #18191a;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  width: 30px;
+  height: 30px;
+  background: none;
+  filter: invert(39%) sepia(69%) saturate(1613%) hue-rotate(193deg)
+    brightness(96%) contrast(101%);
+}
+span {
+  align-self: center;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.container {
+  width: 100%;
+  padding: 10px;
+}
+.container div {
+  font-weight: bold;
+  display: flex;
+  padding: 10px;
+}
+.container div:hover {
+  background: #dcdcdc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bell:hover {
+  animation: bellshake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  backface-visibility: hidden;
+  transform-origin: top right;
+}
+/* .bell:focus {
+  animation: bellshake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  backface-visibility: hidden;
+  transform-origin: top right;
+} */
+
+@keyframes bellshake {
+  0% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(-5deg);
+  }
+  45% {
+    transform: rotate(4deg);
+  }
+  60% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  85% {
+    transform: rotate(-2deg);
+  }
+  92% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

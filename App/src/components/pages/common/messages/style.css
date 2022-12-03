@@ -1,0 +1,229 @@
+* {
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  height: 100vh;
+}
+::placeholder {
+  background: none;
+  color: #e4e6eb;
+}
+.messenger_content {
+  border-right: 1px solid #3e4042;
+  width: 30%;
+  background: #242526;
+}
+.messenger_content li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.messenger_content li:hover {
+  background: #4e4f50;
+}
+
+.listmess_content::-webkit-scrollbar {
+  width: 10px;
+}
+.listmess_content::-webkit-scrollbar-thumb {
+  background-color: #b8aa92;
+  border-radius: 5px;
+}
+.listmess_content::-webkit-scrollbar-thumb:hover {
+  background-color: #dcbe8a;
+}
+.listmess_content > :nth-child(1) {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  border-bottom: 1px solid #3e4042;
+  background: #242526;
+}
+.listmess_content h3 {
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+  font-weight: bolder;
+}
+.searchmess_content {
+  margin-top: 12px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  background: #3a3b3c;
+  display: flex;
+}
+.searchmess_content input {
+  width: 90%;
+  border: none;
+  outline: none;
+  background: #3a3b3c;
+}
+.searchmess_content img {
+  width: 16px;
+  margin-bottom: -3px;
+  filter: invert(96%) sepia(5%) saturate(142%) hue-rotate(186deg)
+    brightness(94%) contrast(99%);
+  align-self: baseline;
+}
+.messenger_content ul {
+  list-style: none;
+  padding: 0;
+}
+.main_mess_contain {
+  display: flex;
+  padding: 0 10px 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mess_1_content img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.mess_1_content_content {
+  padding-left: 10px;
+  display: block;
+  align-self: center;
+}
+.mess_1_content_content p {
+  margin: 0;
+}
+.showmess_content {
+  background: #e5d1b0;
+  border-top: 1px solid #dbdbdb;
+  padding: 10px 0 10px 0;
+  margin: 0;
+  text-align: center;
+}
+.showmess_content:hover {
+  background-image: linear-gradient(to right, #e5d1b0, pink);
+}
+#content_1 {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+#content_1_content {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+.showmess_content a {
+  font-size: 14px;
+  color: #1877f2;
+}
+.showmess_content a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.header_mess {
+  display: flex;
+  border-top: 1px solid #3e4042;
+  border-bottom: 1px solid #3e4042;
+  position: sticky;
+  top: 0;
+  padding-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  background: #242526;
+}
+.content_mess {
+  width: 70%;
+  background: #242526;
+  position: relative;
+}
+.contact_content_mess {
+  display: flex;
+  margin-top: 3px;
+  align-items: center;
+}
+.contact_content_mess h4 {
+  margin: 0;
+}
+.contact_content_mess img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 5px 10px 5px 20px;
+  cursor: pointer;
+}
+.contact_content_mess p {
+  cursor: pointer;
+}
+.header_mess_right img {
+  width: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  filter: invert(39%) sepia(69%) saturate(1613%) hue-rotate(193deg)
+    brightness(96%) contrast(101%);
+}
+.noidungmess {
+  overflow: auto;
+}
+.noidungmess::-webkit-scrollbar {
+  width: 10px;
+}
+.noidungmess::-webkit-scrollbar-thumb {
+  background: #dbdbdb;
+  border-radius: 10px;
+}
+.noidungmess::-webkit-scrollbar-thumb:hover {
+  background: #8e8e8e;
+}
+.noidungmess ul {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.noidungmess ul li {
+  height: auto;
+  width: 40%;
+  margin-bottom: 10px;
+  padding: 15px 15px;
+}
+.you {
+  margin-left: 58%;
+  text-align: right;
+  background-color: #1f87f6;
+  border-radius: 15px;
+}
+.me {
+  text-align: left;
+  background-color: #3a3b3c;
+  border-radius: 15px;
+}
+#content_1_content {
+  white-space: nowrap;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item_content_mess {
+  background: #242526;
+  display: flex;
+  position: fixed;
+  width: 70%;
+  bottom: 0px;
+  padding: 10px 0;
+}
+.item_content_mess input {
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  background: #3a3b3c;
+  border: none;
+}
+.item_content_mess p {
+  align-self: center;
+  margin-right: 10px;
+  color: #0774e7;
+  cursor: pointer;
+}
