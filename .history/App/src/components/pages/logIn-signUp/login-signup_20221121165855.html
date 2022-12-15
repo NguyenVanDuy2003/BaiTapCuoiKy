@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <div class="container" id="a">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <from action="/" class="sign-in-form">
+            <h2>Sign in</h2>
+            <div class="input-field">
+              <img src="../../../assets/icons/user.svg" class="icon">
+              <input type="text" placeholder="Username" id="Sign-in-username" />
+            </div>
+            <div class="input-field">
+              <img src="../../../assets/icons/lock.svg" class="icon">
+              <input
+                type="password"
+                placeholder="Password"
+                id="Sign-in-password"
+              />
+            </div>
+            <div class="checkBox">
+            <input type="checkbox" id="checkBox1" onclick="checkBox()" >
+            <label>Show password?</label>
+          </div>
+            <!-- <a href="../common/index.html"> -->
+            <button type="submit" class="btn solid" onclick="Submit1()" />
+              Login
+            </button>
+            <!-- </a> -->
+            <p class="social-text">Or sign in with social platforms</p>
+          </from>
+
+          <from action="" class="sign-up-form">
+            <h2>Sign up</h2>
+            <div class="input-field">
+              <!-- <i class="fas fa-user" id="iconUser"></i> -->
+              <img src="../../../assets/icons/user.svg" alt="error" class="icon">
+              <input
+                type="text"
+                placeholder="Enter your username"
+                id="sign-up-username"
+              />
+            </div>
+
+            <div class="input-field">
+              <img src="../../../assets/icons/user.svg" alt="error" class="icon">
+              <input
+                type="email"
+                placeholder="Enter your Fullname"
+                id="sign-up-email"
+              />
+            </div>
+
+            <div class="input-field">
+              <img src="../../../assets/icons/lock.svg" alt="error" class="icon">
+              <input
+                type="password"
+                placeholder="Create a password"
+                id="sign-up-password-1"
+              />
+            </div>
+
+            <div class="input-field">
+              <img src="../../../assets/icons/lock.svg" alt="error" class="icon">
+              <input
+                type="password"
+                placeholder="Confirm a password"
+                id="sign-up-password-2"
+              />
+            </div>
+            <div class="checkBox">
+              <input type="checkbox" id="checkBox2" onclick="checkBox()" ><label>Show password?</label>
+            </div>
+            <input
+              type="submit"
+              value="Sign Up"
+              class="btn solid"
+              onclick="submit()"
+              defaultvalue="false"
+              id="sign-up"
+            />
+          </from>
+        </div>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>nguyen van duy</p>
+            <button class="btn transparent" id="sign-up-btn">Sign up</button>
+          </div>
+          <div></div>
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>Ngufyen Van Duy</p>
+            <button class="btn transparent" id="sign-in-btn">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../../data.js"></script>
+  </body>
+</html>

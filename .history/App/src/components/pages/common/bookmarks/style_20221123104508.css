@@ -1,0 +1,245 @@
+* {
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+.right {
+  width: 40%;
+  border-left: 1px solid #3e4042;
+}
+.left > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ffffff1a;
+}
+.left > div:nth-child(1) > span:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.left > div:nth-child(1) > span:nth-child(1) > span:nth-child(1) {
+  font-size: 24px;
+  font-weight: bold;
+}
+.left > div:nth-child(1) > span:nth-child(1) > span:nth-child(2) {
+  font-size: 16px;
+  color: inherit;
+  font: inherit;
+  white-space: inherit;
+}
+.left > div:nth-child(1) > img {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 25px;
+  filter: invert(39%) sepia(69%) saturate(1613%) hue-rotate(193deg)
+    brightness(96%) contrast(101%);
+  cursor: pointer;
+}
+.left > div:nth-child(1) > img:hover {
+  background: #ffffff1a;
+}
+.left > div:nth-child(2) > img {
+  width: 100%;
+}
+.left > div:nth-child(2) {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.left > div:nth-child(2) > h1 {
+  font-weight: bold;
+}
+/* .left > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0px 10px;
+}
+.left > div:nth-child(1) > div:nth-child(1) span {
+  display: flex;
+  flex-direction: column;
+}
+.left > div:nth-child(1) > div:nth-child(1) span > span:nth-child(1) {
+
+}
+.left > div:nth-child(1) > div:nth-child(1) span > span:nth-child(2) {
+
+}
+.left > div:nth-child(1) > div:nth-child(1) img {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 25px;
+  filter: invert(39%) sepia(69%) saturate(1613%) hue-rotate(193deg)
+    brightness(96%) contrast(101%);
+}
+.left > div:nth-child(1) > div:nth-child(1) img:hover {
+  background: #ffffff1a;
+}
+.left > div:nth-child(1) > div:nth-child(2) > ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  padding-left: 0;
+  border-bottom: 1px solid #3e4042;
+}
+.left > div:nth-child(1) > div:nth-child(2) > ul > li {
+  width: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+.left > div:nth-child(1) > div:nth-child(2) > ul > li:hover {
+  background: #ffffff1a;
+}
+.content {
+  margin: 0 auto;
+  padding: 5px;
+  max-width: calc(350px);
+}
+.content > div > img {
+  width: 100%;
+}
+.left > div:nth-child(2) {
+  margin: 0 auto;
+} */
+.input-field {
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  width: 100%;
+}
+.input-field .icon {
+  line-height: 40px;
+  width: 1.1rem;
+  align-self: center;
+  margin-left: 15px;
+}
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+.trends-for-you {
+  background: #242526;
+  border-radius: 10px;
+}
+.trends-for-you > h2 {
+  padding: 10px;
+}
+.trends-for-you > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.right > div > div > div > div {
+  display: flex;
+  flex-direction: column;
+}
+.right > div:nth-child(1) {
+  background: #18191a;
+  line-height: 66px;
+  height: 65px;
+  display: flex;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  max-width: calc(350px);
+}
+.right > div:nth-child(2) {
+  padding: 10px;
+  max-width: calc(350px);
+}
+.right > div > div > div > div > span:nth-child(1),
+span:nth-child(3) {
+  font-size: 14px;
+}
+.right > div > div > div > div > span:nth-child(2) {
+  margin: 5px 0;
+}
+.right > div:nth-child(2) > div:nth-child(1) > div > img {
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+  filter: invert(39%) sepia(69%) saturate(1613%) hue-rotate(193deg)
+    brightness(96%) contrast(101%);
+}
+.trends-for-you > div:hover {
+  background: #ffffff1a;
+}
+.right > div > div > div > img:hover {
+  background: #ffffff1a;
+  border-radius: 25px;
+}
+#who-to-follow {
+  background: #242526;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+#who-to-follow > h2 {
+  font-size: 24px;
+  padding: 10px;
+  margin: 0;
+}
+#who-to-follow > div {
+  display: flex;
+  padding: 10px;
+}
+#who-to-follow > div:hover {
+  background: #ffffff1a;
+}
+#who-to-follow > div > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#who-to-follow > div > img:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: auto;
+  align-self: center;
+  filter: invert(39%) sepia(69%) saturate(1613%) hue-rotate(193deg)
+    brightness(96%) contrast(101%);
+  padding: 5px;
+}
+#who-to-follow > div > img:nth-child(3):hover {
+  background: #ffffff1a;
+}
+#who-to-follow > div > span {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-self: center;
+}
+#who-to-follow > div > span > span {
+  font-size: 16px;
+}
+#who-to-follow > div > span > label {
+  font-size: 14px;
+}
