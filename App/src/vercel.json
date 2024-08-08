@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "components/pages/logIn-signUp/index.html",
+      "src": "components/pages/logIn-signUp/login-signup.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "components/pages/logIn-signUp/index.html"
+      "dest": "components/pages/logIn-signUp/login-signup.html"
     }
   ]
 }
